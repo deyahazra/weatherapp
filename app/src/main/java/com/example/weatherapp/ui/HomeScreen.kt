@@ -33,7 +33,7 @@ fun HomeScreen() {
 
     Box(
         modifier = Modifier
-            .background(Blue3)
+            .background(Color.Green)
             .fillMaxSize()
     )
     {
@@ -145,7 +145,7 @@ fun TimeForcast(
                             .padding(top = 20.dp)
                             .aspectRatio(1f))
 
-                        hour+=1
+                        hour+=2
 
                 }
 
